@@ -11,6 +11,10 @@
     "ember-resolver": "~0.1.15",
     "jquery": "^1.11.1",
     "loader.js": "ember-cli/loader.js#3.2.0",
-    "qunit": "~1.17.1"
+    "qunit": "~1.17.1",
+    "leaflet": "~0.7.3",
+    "d3": "~3.5.5",
+    "bootstrap": "~3.3.4",
+    "isotope": "~2.2.0"
   }
 }

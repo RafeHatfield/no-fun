@@ -1,0 +1,24 @@
+#map { height: 100px; }
+
+.right {
+
+  /*top: 0;*/
+  /*right: 0;*/
+
+}
+
+iframe {
+  width: 100%;
+  height: 100px;
+}
+
+.place-list {
+  overflow: hidden;
+}
+
+.place-list-item {
+  float: left;
+  height: auto;
+  width: 189px;
+  margin-bottom: 25px;
+}

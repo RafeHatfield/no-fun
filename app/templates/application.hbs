@@ -1,3 +1,23 @@
-<h2 id="title">Welcome to Ember.js</h2>
+<div class="right">{{outlet}}</div>
+<div class="button-group filter-button-group" data-filter-group="type">
+    <button data-filter="*">show all</button>
+    <button data-filter=".museum-gallery">museum</button>
+    <button data-filter=".studio-rehearsal">museum</button>
+    <button data-filter=".community-space">museum</button>
+    <button data-filter=".museum-gallery">museum</button>
+</div>
+<ul class="place-list">
+  {{#each place in model}}
+      <li class="place-list-item {{dasher-ize place.type}}">
+        {{#link-to 'place' place}}
+          {{place.name}}
+            <span> {{place.type}}</span>
+        {{/link-to}}
 
-{{outlet}}
+      </li>
+{{/each}}
+</ul>
+{{!--{{leaflet-map}}--}}
+
+
+

@@ -1,0 +1,8 @@
+{{model.name}}
+
+{{!--<a href="{{model.url}}">{{model.url}}</a>--}}
+{{model.neighbourhood}}
+<br>
+<iframe src={{model.url}}></iframe>
+{{leaflet-map place=model}}
+{{outlet}}
